@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<routes>
+    <route id="users:profile" path="/user/profile/">
+	<default key="_controller">CMS_Users:profile</default>
+    </route>
+    <route id="users:login" path="/user/login/">
+	<default key="_controller">CMS_Users:login</default>
+    </route>
+    <route id="users:logout" path="/user/logout/">
+	<default key="_controller">CMS_Users:logout</default>
+    </route>
+    <route id="users:user" path="/user/{name}/{id}">
+	<default key="_controller">CMS_Users:usProfile</default>
+	<pattern key="name">.*</pattern>
+	<pattern key="id">[a-zA-Z0-9]+</pattern>
+    </route>
+    <route id="users:register" path="/user/register/">
+	<default key="_controller">CMS_Users:register</default>
+    </route>
+     <!-- <route id="pages:index" path="/">
+	 <default key="_controller">CMS_pages:index</default>
+     </route>
+     <route id="pages:list" path="/pages/list/{page}">
+         <default key="page">1</default>
+	 <pattern key="page">\d*</pattern>
+	 <default key="_controller">CMS_pages:list</default>
+    </route>-->
+ </routes>

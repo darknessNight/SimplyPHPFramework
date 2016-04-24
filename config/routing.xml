@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+ <routes>
+     <route reffered="__APPS__/CMS/pages/routing.xml"></route>
+     <route reffered="__APPS__/CMS/users/routing.xml"></route>
+     <route reffered="__APPS__/CMS/gallery/routing.xml"></route>
+ </routes>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <name>Default</name>
+    <author>Paweł Przytarski</author>
+    <address></address>
+    <page></page>
+    <corporing>Paweł Przytarski</corporing>
+    <table_rows_class_name>row1</table_rows_class_name>
+    <table_th_class_name>table_th</table_th_class_name>
+    <table_clear_class></table_clear_class>
+</theme>

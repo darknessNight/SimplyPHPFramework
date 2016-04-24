@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{TITLE}</title>
+    <meta name="Keywords" content="{KEYWORDS}" />
+    <meta name="Description" content="{DESCRIPTION}" />
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="{THEME_DIR}/style.css" />
+    <link rel="stylesheet" href="{THEME_DIR}/QuickPlugins.css" />
+    {SCRIPTS}
+    <script src="{THEME_DIR}/QuickPlugins.js"></script>
+    {STYLESHEET}
+</head>
+<body>{AD_LEFT}{AD_RIGTH}{AD_TOP}{AD_BOTTOM}
+    <header class="header">{LOGO}<div class="LoginForm">{LOGINFORM}</div>{HEADER}</header>
+    <nav class="navigate">{NAV_MAIN}</nav>
+    <div class="contener">
+	<div class="LeftColumn">{LEFT_COLUMN}</div>
+    <div class="RightColumn">{RIGHT_COLUMN}</div>
+    <div class="widget">{WIDGETS}</div>
+    <article class="content">
+	<div class="block">
+	    {IF %CONTENT_TITLE%}
+	    <h1 class="TitleBlock">{CONTENT_TITLE}</h1>
+	    {/IF}
+	    {CONTENT}
+	</div>
+	{IF %PAGINATION%}
+	<div class="pagination">
+	    {PAGINATION}
+	</div>
+	{/IF}
+    </article>
+</div>
+    <footer class="footer">{FOOTER}<p style="text-align:center;">AUTHOR: Paweł Przytarski&COPY; <br/>ALL RIGHTS RESERVED</p></footer>
+</body>
+</html>

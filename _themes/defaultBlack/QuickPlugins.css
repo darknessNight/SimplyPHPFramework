@@ -1,0 +1,30 @@
+/*
+    Document   : QuickPlugins
+    Created on : 2015-11-21, 13:08:59
+    Author     : Pawel_000
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+div.hiddenMenu div.hide{
+    text-align: left;
+    border:solid thin black;
+    padding:5px;
+}
+
+div.hiddenMenu div.hide div.label{
+    width:49%;
+    display:inline-block;
+}
+
+div.leftMenu{
+    text-align: left;
+    width:49%;
+    float:left;
+}
+div.rightMenu{
+    text-align: right;
+    width:49%;
+    float:right;
+}
+

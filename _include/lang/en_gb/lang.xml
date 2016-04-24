@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lang>
+    <author>Paweł Przytarski</author>
+    <creationDate>26 lipca 2013</creationDate>
+    <tag>en-gb</tag>
+    <name>English (United Kingdom)</name>
+    <version>1.0.0</version>
+    <description>Language of MyCMS</description>
+    <authorAddress></authorAddress>
+    <authorPage></authorPage>
+    <copyright>Paweł Przytarski</copyright>
+    <license>Commercial</license>
+</lang>

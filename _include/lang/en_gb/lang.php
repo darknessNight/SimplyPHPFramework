@@ -1,0 +1,30 @@
+<?php
+$lang['lang']='English - British';
+$lang['yes']='yes';
+$lang['no']='no';
+$lang['accept']='accept';
+$lang['cancel']='cancel';
+$lang['nopage']='Pages doesn\'t in the system';
+$lang['nopageTitle']='No pages';
+$lang['404Title']='Page doesn\'t exists';
+$lang['404']='Page choose at you doesn\'t exists';
+$lang['noPageTitle']='There is currently no pages in this language';
+$lang['noPage']='There is currently no pages in this choose for you language.';
+$lang['otherLanguage']='This page is in other languge than your';
+$lang['valueRequierd']='Value in this field is required';
+$lang['valueIncorrect']='Value in this field is incorrect';
+$lang['loginIncorrect']='Value in this field is incorrect. Username can consist of letters, numbers and characters _-! =., and must be less than 60 characters and more than 2 characters';
+$lang['passwordIncorrect']='Value in this field is incorrect. The password can consist of letters, numbers and characters _-! + =., <> / \ \ @ # $ And must be no longer than 8 characters long and contain one letter, one number, one special character';
+$lang['invalideForm']='You should improve the highlighted fields';
+$lang['connectionError']='Connection error';
+$lang['failed']='The operation failed';
+$lang['success']='The operation success';
+$lang['add']='Add';
+$lang['management']='Manage';
+$lang['noObjectId']='No object with the given id';
+$lang['theme']="Theme";
+$lang['appLoadFail']='Nastąpił błąd ładowania aplikacji';
+$lang['systemFileNotFound']='Nie znaleziono pliku systemowego.';
+$lang['error404']='Błąd 404 - Podanej strony nie znaleziono!';
+$lang['error403']='Błąd 403 - Dostęp do podanego zasobu jest zabroniony!';
+?>

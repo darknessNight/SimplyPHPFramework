@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<routes>
+    <route id="gallery:add" path="/gallery/add">
+	 <default key="_controller">CMS_Gallery:add</default>
+     </route>
+     <route id="gallery:list" path="/gallery/{page}">
+         <default key="page">1</default>
+	 <pattern key="page">\d*</pattern>
+	 <default key="_controller">CMS_Gallery:list</default>
+     </route>
+     <route id="gallery:listNS" path="/gallery/nosearch/{page}">
+	 <default key="page">1</default>
+	 <default key="nosearch">1</default>
+	 <pattern key="page">\d*</pattern>
+	 <default key="_controller">CMS_Gallery:list</default>
+     </route>
+     <route id="gallery:listChecked" path="/gallery/checked/{page}">
+	 <default key="page">1</default>
+	 <default key="onlyChecked">1</default>
+	 <pattern key="page">\d*</pattern>
+	 <default key="_controller">CMS_Gallery:list</default>
+     </route>
+ </routes>
